@@ -1,4 +1,4 @@
-from distutils.log import debug
+# Removed unnecessary import of distutils.log
 from flask import Flask, request, jsonify, make_response
 from flask_migrate import Migrate
 from models  import Customer, db
